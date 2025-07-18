@@ -1,6 +1,6 @@
 package Medium;
 
-class Solution {
+class PeakIn2D {
     private static int max(int[][] nums, int n, int m, int col) {
         int maxVal = -1;
         int index = -1;
@@ -42,5 +42,6 @@ class Solution {
         };
 
         int[] ans = findPeakGrid(mat);
+        System.out.println("Peak position: [" + ans[0] + ", " + ans[1] + "]");
     }
 }
