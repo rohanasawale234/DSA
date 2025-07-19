@@ -1,6 +1,6 @@
 package Medium;
 
-class Solution {
+class SearchMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
         int n = matrix.length;
         int m = matrix[0].length;
@@ -23,7 +23,8 @@ class Solution {
             {18,21,23,26,30}
         };
         int target = 5;
-        Solution sol = new Solution();
+        
+        SearchMatrix sol = new SearchMatrix();
         boolean ans = sol.searchMatrix(nums, target);
     }
 }

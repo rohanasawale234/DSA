@@ -1,7 +1,7 @@
 package Medium;
 
 import java.util.Arrays;
-class Solution {
+class smallestDivisorThreshold {
     public static int smallestDivisor(int[] nums, int threshold) {
         int left = 1;
         int right = Arrays.stream(nums).max().getAsInt();
