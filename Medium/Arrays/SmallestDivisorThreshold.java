@@ -1,4 +1,4 @@
-package Medium;
+package Medium.Arrays;
 
 import java.util.Arrays;
 class smallestDivisorThreshold {

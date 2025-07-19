@@ -1,4 +1,4 @@
-package Medium;
+package Medium.String;
 
 public class ReverseWordString {
     public static void main(String[] args) {

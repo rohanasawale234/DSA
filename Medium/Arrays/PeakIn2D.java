@@ -1,4 +1,4 @@
-package Medium;
+package Medium.Arrays;
 
 class PeakIn2D {
     private static int max(int[][] nums, int n, int m, int col) {

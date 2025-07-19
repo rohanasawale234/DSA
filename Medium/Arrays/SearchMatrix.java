@@ -1,4 +1,4 @@
-package Medium;
+package Medium.Arrays;
 
 class SearchMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
